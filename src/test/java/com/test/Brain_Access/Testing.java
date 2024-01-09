@@ -39,6 +39,13 @@ public class Testing {
         user90_API();
         user91_API();
         user92_API();
+        user93_API();
+        user94_API();
+        user95_API();
+        user96_API();
+        user97_API();
+        user109_API();
+        user110_API();
     }
 
     private void executeAndPrintQuery(Connection connection, int userID) throws SQLException {
@@ -140,5 +147,80 @@ public class Testing {
 	 		         }
 	 		         Assert.assertEquals(statusCode, 200, "API request to the series set of user-93 failed");
 	 		    } 
+	 	    private void user94_API()
+ 		    {	
+ 		    	//series set
+ 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/564123987");
+ 		         int statusCode = response.getStatusCode();
+ 		         if (statusCode == 200) {
+ 		             System.out.println("API request to the series set of user-94 passed. Status code: " + statusCode);
+ 		         } else {
+ 		             System.out.println("API request to the series set of user-94 failed. Status code: " + statusCode);
+ 		         }
+ 		         Assert.assertEquals(statusCode, 200, "API request to the series set of user-94 failed");
+ 		    }
+	 	   private void user95_API()
+		    {	
+		    	//series set
+		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/756321498");
+		         int statusCode = response.getStatusCode();
+		         if (statusCode == 200) {
+		             System.out.println("API request to the series set of user-95 passed. Status code: " + statusCode);
+		         } else {
+		             System.out.println("API request to the series set of user-95 failed. Status code: " + statusCode);
+		         }
+		         Assert.assertEquals(statusCode, 200, "API request to the series set of user-95 failed");
+		    }
+	 	   
+	 	  private void user96_API()
+		    {	
+		    	//series set
+		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/378945612");
+		         int statusCode = response.getStatusCode();
+		         if (statusCode == 200) {
+		             System.out.println("API request to the series set of user-96 passed. Status code: " + statusCode);
+		         } else {
+		             System.out.println("API request to the series set of user-96 failed. Status code: " + statusCode);
+		         }
+		         Assert.assertEquals(statusCode, 200, "API request to the series set of user-96 failed");
+		    }
+	 	 private void user97_API()
+		    {	
+		    	//series set
+		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/104132314979673418887");
+		         int statusCode = response.getStatusCode();
+		         if (statusCode == 200) {
+		             System.out.println("API request to the series set of user-97 passed. Status code: " + statusCode);
+		         } else {
+		             System.out.println("API request to the series set of user-97 failed. Status code: " + statusCode);
+		         }
+		         Assert.assertEquals(statusCode, 200, "API request to the series set of user-97 failed");
+		    }
+	 	private void user109_API()
+	    {	
+	    	//series set
+	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/118046913671872779951");
+	         int statusCode = response.getStatusCode();
+	         if (statusCode == 200) {
+	             System.out.println("API request to the series set of user-109 passed. Status code: " + statusCode);
+	         } else {
+	             System.out.println("API request to the series set of user-109 failed. Status code: " + statusCode);
+	         }
+	         Assert.assertEquals(statusCode, 200, "API request to the series set of user-109 failed");
+	    }
+	 	private void user110_API()
+	    {	
+	    	//series set
+	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/897456321");
+	         int statusCode = response.getStatusCode();
+	         if (statusCode == 200) {
+	             System.out.println("API request to the series set of user-110 passed. Status code: " + statusCode);
+	         } else {
+	             System.out.println("API request to the series set of user-110 failed. Status code: " + statusCode);
+	         }
+	         Assert.assertEquals(statusCode, 200, "API request to the series set of user-110 failed");
+	    }
+	 	   
+	 	     
 }
 
