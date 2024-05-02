@@ -75,7 +75,8 @@ public class Testing {
 	    	//series set
 	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/102224288973418834869");
 	         String user36_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/102224288973418834869";
-		  System.out.println("user36_API :"+user36_API);
+		 System.out.println("user36_API :"+user36_API);
+		 System.out.println("                          ********                              ");
 		    int statusCode = response.getStatusCode();
 	         if (statusCode == 200) {
 	             System.out.println("API request to the series set of user-36 passed. Status code: " + statusCode);
@@ -89,6 +90,9 @@ public class Testing {
 	 	    {	
 	 	    	//series set
 	 	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/456123789");
+			 String user89_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/456123789";
+		         System.out.println("user89_API :"+user89_API);
+		         System.out.println("                          ********                              ");
 	 	         int statusCode = response.getStatusCode();
 	 	         if (statusCode == 200) {
 	 	             System.out.println("API request to the series set of user-89 passed. Status code: " + statusCode);
@@ -102,6 +106,9 @@ public class Testing {
 	 		    {	
 	 		    	//series set
 	 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/258974613");
+				String user90_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/258974613";
+		                System.out.println("user90_API :"+user90_API);
+		                System.out.println("                          ********                              ");
 	 		         int statusCode = response.getStatusCode();
 	 		         if (statusCode == 200) {
 	 		             System.out.println("API request to the series set of user-90 passed. Status code: " + statusCode);
@@ -115,6 +122,9 @@ public class Testing {
 	 		    {	
 	 		    	//series set
 	 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/1234");
+				String user91_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/1234";
+		                System.out.println("user91_API :"+user91_API);
+		                System.out.println("                          ********                              ");   
 	 		         int statusCode = response.getStatusCode();
 	 		         if (statusCode == 200) {
 	 		             System.out.println("API request to the series set of user-91 passed. Status code: " + statusCode);
@@ -127,7 +137,10 @@ public class Testing {
 	 	      private void user92_API()
 	 		    {	
 	 		    	//series set
-	 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/897456153");
+	 		    	Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/897456153");
+				String user92_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/897456153";
+		                System.out.println("user92_API :"+user92_API);
+		                System.out.println("                          ********                              ");   
 	 		         int statusCode = response.getStatusCode();
 	 		         if (statusCode == 200) {
 	 		             System.out.println("API request to the series set of user-92 passed. Status code: " + statusCode);
@@ -141,6 +154,9 @@ public class Testing {
 	 		    {	
 	 		    	//series set
 	 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/965412387");
+				String user93_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/965412387";
+		                System.out.println("user93_API :"+user93_API);
+		                System.out.println("                          ********                              ");   
 	 		         int statusCode = response.getStatusCode();
 	 		         if (statusCode == 200) {
 	 		             System.out.println("API request to the series set of user-93 passed. Status code: " + statusCode);
@@ -153,6 +169,9 @@ public class Testing {
  		    {	
  		    	//series set
  		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/564123987");
+			 String user94_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/564123987";
+		         System.out.println("user94_API :"+user94_API);
+		         System.out.println("                          ********                              ");   
  		         int statusCode = response.getStatusCode();
  		         if (statusCode == 200) {
  		             System.out.println("API request to the series set of user-94 passed. Status code: " + statusCode);
@@ -165,6 +184,9 @@ public class Testing {
 		    {	
 		    	//series set
 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/756321498");
+			 String user95_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/756321498";
+		         System.out.println("user95_API :"+user95_API);
+		         System.out.println("                          ********                              ");   
 		         int statusCode = response.getStatusCode();
 		         if (statusCode == 200) {
 		             System.out.println("API request to the series set of user-95 passed. Status code: " + statusCode);
@@ -178,6 +200,9 @@ public class Testing {
 		    {	
 		    	//series set
 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/378945612");
+			 String user96_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/378945612";
+		         System.out.println("user96_API :"+user96_API);
+		         System.out.println("                          ********                              ");   
 		         int statusCode = response.getStatusCode();
 		         if (statusCode == 200) {
 		             System.out.println("API request to the series set of user-96 passed. Status code: " + statusCode);
@@ -190,6 +215,9 @@ public class Testing {
 		    {	
 		    	//series set
 		    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/104132314979673418887");
+			 String user97_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/104132314979673418887";
+		         System.out.println("user97_API :"+user97_API);
+		         System.out.println("                          ********                              ");   
 		         int statusCode = response.getStatusCode();
 		         if (statusCode == 200) {
 		             System.out.println("API request to the series set of user-97 passed. Status code: " + statusCode);
@@ -202,6 +230,9 @@ public class Testing {
 	    {	
 	    	//series set
 	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/118046913671872779951");
+		 String user109_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/118046913671872779951";
+		 System.out.println("user109_API :"+user109_API);
+		 System.out.println("                          ********                              ");   
 	         int statusCode = response.getStatusCode();
 	         if (statusCode == 200) {
 	             System.out.println("API request to the series set of user-109 passed. Status code: " + statusCode);
@@ -214,6 +245,9 @@ public class Testing {
 	    {	
 	    	//series set
 	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/897456321");
+		 String user110_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/897456321";
+		 System.out.println("user110_API :"+user110_API);
+		 System.out.println("                          ********                              ");   
 	         int statusCode = response.getStatusCode();
 	         if (statusCode == 200) {
 	             System.out.println("API request to the series set of user-110 passed. Status code: " + statusCode);
