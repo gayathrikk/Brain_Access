@@ -74,7 +74,9 @@ public class Testing {
 	    {	
 	    	//series set
 	    	 Response response = RestAssured.get("https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/102224288973418834869");
-	         int statusCode = response.getStatusCode();
+	         String user36_API="https://dataportal.colab.humanbrain.in/CC/getDetailsOfSeriesStatsAllRestricted/102224288973418834869";
+		  System.out.println("user36_API :"+user36_API);
+		    int statusCode = response.getStatusCode();
 	         if (statusCode == 200) {
 	             System.out.println("API request to the series set of user-36 passed. Status code: " + statusCode);
 	         } else {
